@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="javascript/action.js"></script>
+    <script
+      src="https://kit.fontawesome.com/552cbf40bf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="myFunction()">
+    <!-- nav bar-->
+    <div id="navbar">
+      <a href="#" onclick="homeHide()">Home</a>
+      <a href="#" onclick="projectHide()">Projects</a>
+      <a href="#" onclick="blogHide()">Blogs</a>
+      <a
+        href="https://drive.google.com/file/d/1LNlN_WwelrlVUdinK6ICNgtPhV2pMVkV/view?usp=sharing"
+        target="_blank"
+        >Cv</a
+      >
+    </div>
+
+    <!-- Home Page Starts-->
+    <div id="hideHome">
+      <div class="main">
+        <div class="leftside">
+          <img
+            class="profile posimage"
+            src="images/kaustuv.jpeg"
+            alt="profileimage"
+          />
+          <div class="font">
+            <h1 class="pos1">Kaustuv Dash</h1>
+            <h2 class="pos2">Student at IIIT Hyderabad</h2>
+          </div>
+          <div>
+            <a
+              itemprop="sameAs"
+              href="https://github.com/KaustuvDash"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              itemprop="sameAs"
+              href="https://www.interviewbit.com/courses/programming/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fas fa-laptop-code"></i>
+            </a>
+            <a
+              itemprop="sameAs"
+              href="https://medium.com/@gtavicecity581"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-medium-m"></i>
+            </a>
+            <a
+              itemprop="sameAs"
+              href="https://www.linkedin.com/in/kaustuv-dash-ba32a4186/"
+              target="_blank"
+              rel="noopener"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+        <div class="rightside">
+          <div>
+            <h1 class="bio">Biography</h1>
+          </div>
+          <div class="paragraphFont">
+            <p>
+              I am Kaustuv Dash 24 years old currently pursing my master degree
+              on cybersecurity at
+              <span class="change">
+                <a id="college" href="https://www.iiit.ac.in/" target="_blank"
+                  >IIIT Hyderabad</a
+                ></span
+              >.
+            </p>
+            <p>
+              Before that i worked as a
+              <span class="change">software engineer at Altran</span>
+              for 1 year.Doing data analysis and applying machine learing models
+              on a project developed interest in Artificial intelligence.
+            </p>
+            <p>
+              I wanted to dive deep into the field of Artificial intelligence.So
+              i did a full 1 year course from
+              <span class="change">Applied AI</span> did some awsome projects
+              and written some blogs and one of them posted in
+              <span class="change">analytics vidhya</span>.
+            </p>
+            <p>
+              Some of my favourite projects include
+              <span class="change">
+                microsoft malware detection,IEEE fraud detection,grammatical
+                error correction,new york taxi demand prediction</span
+              >.
+            </p>
+            <p>
+              Aprat from studies i am a tablist.I have done senior dipoloma in
+              tabla from <span class="change">prayag samiti allahabad</span>.I
+              want to explore different musical instruments such as flute,piano.
+            </p>
+          </div>
+          <h2 class="bio">Interest</h2>
+          <div class="paragraphList paragraphFont">
+            <ul>
+              <li>Artificial intelligence</li>
+              <li>Applied Machine learning</li>
+              <li>Cyber security</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Home Page ends-->
+
+    <!--Project page starts-->
+    <div id="hideProject" class="removehideProjectCss">
+      <div class="main">
+        <div class="leftside">
+          <h2 id="microsoftImage">Microsoft Malware Detection</h2>
+          <div class="container">
+            <a
+              href="https://github.com/KaustuvDash/MicrosoftMalwareDetection"
+              target="_blank"
+            >
+              <img class="resizeImg" src="images/malware.jpeg" alt="malware" />
+            </a>
+          </div>
+          <h2 id="fraudDetect">IEEE Fraud Detection</h2>
+          <div class="container">
+            <a
+              href="https://github.com/KaustuvDash/IEEE-Fraud-Detection"
+              target="_blank"
+            >
+              <img class="resizeImgFraud" src="images/fraud.jpg" alt="fraud" />
+            </a>
+          </div>
+          <h2 id="grammar">Deep Text Corrector</h2>
+          <div class="container">
+            <a
+              href="https://github.com/KaustuvDash/DeepTextCorrector"
+              target="_blank"
+            >
+              <img
+                class="resizeImgGrammar"
+                src="images/grammar.jpg"
+                alt="grammar"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="rightside">
+          <p class="paragraphFontProject">
+            In the past few years, the malware industry has grown very rapidly
+            that, the syndicates invest heavily in technologies to evade
+            traditional protection, forcing the anti-malware groups/communities
+            to build more robust softwares to detect and terminate these
+            attacks. The major part of protecting a computer system from a
+            malware attack is to identify whether a given piece of file/software
+            is a malware.
+          </p>
+          <p class="paragraphFontProject">
+            Microsoft has been very active in building anti-malware products
+            over the years and it runs it’s anti- malware utilities over 150
+            million computers around the world. This generates tens of millions
+            of daily data points to be analyzed as potential malware. In order
+            to be effective in analyzing and classifying such large amounts of
+            data, we need to be able to group them into groups and identify
+            their respective families. This dataset provided by Microsoft
+            contains about 9 classes of malware. Source of the dataset :
+            <span class="change"
+              ><a
+                href="https://www.kaggle.com/c/malware-classification"
+                target="_blank"
+                id="kaggle"
+                >DatasetLink</a
+              ></span
+            >
+          </p>
+          <p class="paragraphFraud">
+            In day today's electronic world ,almost everyone make a transaction
+            either in shopping mall or in booking movie tickets or flight
+            tickets etc.So fraud transaction can happen in any of these places
+            which will penalize the customer heavily as well as the businesses.
+            Hence improving the efficacy of fraudulent transaction alerts for
+            millions of people around the world and helping hundreds of
+            thousands of businesses reduce their fraud loss and increase their
+            revenue.
+          </p>
+          <p class="paragraphFraud">
+            IEEE-CIS works across a variety of AI and machine learning areas,
+            including deep neural networks, fuzzy systems, evolutionary
+            computation, and swarm intelligence. Today they’re partnering with
+            the world’s leading payment service company, Vesta Corporation,
+            seeking the best solutions for fraud prevention industry. The data
+            has been collected from Vista's real-world e-commerce transactions
+            and it contains a wide range of features from device type to product
+            features.
+            <span class="change"
+              ><a
+                href="https://www.kaggle.com/c/ieee-fraud-detection"
+                target="_blank"
+                id="kaggle"
+                >DatasetLink</a
+              ></span
+            >
+          </p>
+          <p class="paragraphGrammar">
+            In day to day life we make many grammartical mistakes writing
+            english sentence.Here is the trained deep learning model which will
+            automatically detect the small grammartical errors in the sentence
+            and provide you error free sentence.
+          </p>
+          <p class="paragraphGrammar">
+            Given a sentence the model will detect grammartical error.It
+            includes small error like removal of a,an,the,replacing than with
+            then.
+            <span class="change"
+              ><a href="https://tatoeba.org/eng/" target="_blank" id="kaggle"
+                >DatasetLink</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!--Project page ends-->
+
+    <!--Blog page starts-->
+    <div id="hideBlog" class="removehideBlogCss">
+      <div class="row">
+        <div class="column1 container card">
+          <a
+            href="https://medium.com/analytics-vidhya/hypothesis-testing-3e8ab332b8b7"
+            target="_blank"
+          >
+            <img
+              class="hypothesis"
+              src="images/hypothesis.jpeg"
+              alt="hypothesis"
+              style="width: 100%"
+            />
+          </a>
+          <p>
+            A detailed explanation of Hypothesis Testing,Central limit theorem
+            and significance levels with examples.
+          </p>
+        </div>
+        <div class="column2 container card">
+          <a
+            href="https://medium.com/@gtavicecity581/ieee-fraud-detection-469398ce1ac4"
+            target="_blank"
+          >
+            <img
+              class="resizeImgFraudBlogs"
+              src="images/fraud.jpg"
+              alt="fraudDetection"
+              style="width: 100%"
+            />
+          </a>
+          <p>
+            Building a Machine Learning model which will not only try to catch
+            all the fraud transaction but also it improves the consumer
+            experience.
+          </p>
+        </div>
+      </div>
+      <h1 id="align">More blogs coming soon!</h1>
+    </div>
+    <!-- <div id="hideBlog" class="removehideBlogCss">
+      <div class="card">
+        <div class="container">
+          <a
+            href="https://medium.com/analytics-vidhya/hypothesis-testing-3e8ab332b8b7"
+            target="_blank"
+          >
+            <img
+              class="hypothesis"
+              src="hypothesis.jpeg"
+              alt="hypothesis"
+              style="width: 100%"
+            />
+          </a>
+        </div>
+        <div class="blogs">
+          <h3><b>Hypothesis tesing</b></h3>
+          <p>
+            A detailed explanation of Hypothesis Testing,Central limit theorem
+            and significance levels with examples.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="container">
+          <a
+            href="https://medium.com/analytics-vidhya/hypothesis-testing-3e8ab332b8b7"
+            target="_blank"
+          >
+            <img
+              class="hypothesis"
+              src="hypothesis.jpeg"
+              alt="hypothesis"
+              style="width: 100%"
+            />
+          </a>
+        </div>
+        <div class="blogs">
+          <h3><b>Hypothesis tesing</b></h3>
+          <p>
+            A detailed explanation of Hypothesis Testing,Central limit theorem
+            and significance levels with examples.
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <div class="footer">
+      <p id="demo"></p>
+    </div>
+  </body>
+</html>
